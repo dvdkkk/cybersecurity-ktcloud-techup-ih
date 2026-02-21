@@ -71,7 +71,11 @@ export const Navigation: React.FC = () => {
             </a>
           ))}
           <a 
-            
+            onClick={(e) => {
+              const isPc = window.innerWidth >= 1024;
+              if (isPc) handleNavClick(e, '#consultation');
+            }}
+
             className="flex items-center gap-2 bg-red-700 text-white px-5 py-2 rounded-full font-bold text-lg hover:bg-red-600 transition-transform hover:scale-105"
           >
             <PhoneCall size={20} />
