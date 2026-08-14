@@ -85,7 +85,7 @@ export const EmploymentSupport: React.FC = () => {
       icon: Award,
       color: "text-red-500",
       bgHover: "group-hover:bg-red-500/10",
-      borderHover: "group-hover:border-red-500/50""
+      borderHover: "group-hover:border-red-500/50"
     },
     {
       id: 6,
